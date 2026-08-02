@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0b0c10;
+    color: #abb2bf;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+}
+
+/* Background canvas matrix dots */
+.bg-dot-grid {
+  background-image: radial-gradient(rgba(168, 85, 247, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dot-grid-dense {
+  background-image: radial-gradient(rgba(168, 85, 247, 0.25) 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+/* Custom terminal card style */
+.code-card {
+  background-color: rgba(18, 19, 28, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  transition: all 0.25s ease-in-out;
+}
+
+.code-card:hover {
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Glowing text highlight */
+.text-gradient {
+  background: linear-gradient(135deg, #c084fc 0%, #a855f7 50%, #e879f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0c10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #26283b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+
+/* Line decoration pattern */
+.line-pattern {
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgba(168, 85, 247, 0.05) 10px,
+    rgba(168, 85, 247, 0.05) 20px
+  );
+}
