@@ -16,7 +16,7 @@ const projectsData = [
       'Applied K-Means clustering & elbow method analysis to segment high-value vs. churn-risk user groups.',
       'Improved personalized product recommendation accuracy and targeting retention strategies.'
     ],
-    githubLink: 'https://github.com/sushantpawar01'
+    githubLink: 'https://github.com/sushantpawar01/Customized-Recommendation-System-The-Intelligent-customer-segmentation-Approach-.git'
   },
   {
     id: 'credit-card-dashboard',
@@ -31,7 +31,7 @@ const projectsData = [
       'Discovered that the 40-50 age group and "Blue" cardholders generated 83% of total portfolio revenue.',
       'Proposed targeted marketing initiatives for underperforming digital channels and underpenetrated regions.'
     ],
-    githubLink: 'https://github.com/sushantpawar01'
+    githubLink: 'https://github.com/sushantpawar01/CREDIT-CARD-WEEKLY-STATUS-DASHBOARD.git'
   },
   {
     id: 'mutual-fund-analysis',
@@ -46,7 +46,7 @@ const projectsData = [
       'Developed a custom risk-reward scoring algorithm to surface the top 30 optimal investment options.',
       'Created an interactive Power BI dashboard with dynamic sliders and risk spectrum filters for investors.'
     ],
-    githubLink: 'https://github.com/sushantpawar01'
+    githubLink: 'https://github.com/sushantpawar01/Mutual-Fund-Analysis.git'
   }
 ];
 
