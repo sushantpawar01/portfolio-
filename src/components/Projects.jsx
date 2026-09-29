@@ -1,52 +1,49 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github, ArrowUpRight, Filter } from 'lucide-react';
+import { ExternalLink, Github, ArrowUpRight } from 'lucide-react';
 import ProjectModal from './ProjectModal';
 
 const projectsData = [
   {
     id: 'recommendation-system',
     title: 'Customized Recommendation System',
-    tech: 'Python · Machine Learning · RFM Analysis',
-    stack: ['Python', 'Scikit-Learn', 'RFM Analysis', 'K-Means Clustering', 'Pandas'],
+    tech: 'Python · K-Means · RFM Analysis · Scikit-learn',
+    stack: ['Python', 'K-Means', 'RFM Analysis', 'Scikit-learn', 'Pandas'],
     image: '/assets/rec_system.png',
-    description: 'ML-based recommendation engine utilizing customer behavior & purchase history to perform user segmentation via RFM analysis.',
-    fullDescription: 'Designed and deployed an end-to-end Machine Learning recommendation system tailored for e-commerce and retail transaction datasets. The system segments customers into distinct behavioral cohorts using Recency, Frequency, and Monetary (RFM) modeling combined with unsupervised K-Means clustering.',
+    description: 'Developed an RFM model and K-Means clustering to categorize target users and deliver personalized e-commerce recommendations.',
+    fullDescription: 'Developed and implemented an end-to-end recommendation engine utilizing customer behavior and transactional data to categorize high-value cohorts and optimize marketing strategies through machine learning.',
     highlights: [
-      'Engineered RFM metrics from raw transactional logs to calculate customer lifetime value scores.',
-      'Applied K-Means clustering & elbow method analysis to segment high-value vs. churn-risk user groups.',
-      'Improved personalized product recommendation accuracy and targeting retention strategies.'
+      'Developed and implemented an RFM model to categorize high-value customers, facilitating personalized e-commerce marketing strategies and resulting in a 20% increase in engagement.',
+      'Trained K-Means clustering algorithms to categorize target users, boosting personalized recommendation precision by 22%.'
     ],
     githubLink: 'https://github.com/sushantpawar01/Customized-Recommendation-System-The-Intelligent-customer-segmentation-Approach-.git'
   },
   {
-    id: 'credit-card-dashboard',
-    title: 'Credit Card Weekly Status Dashboard',
-    tech: 'SQL · Power BI · DAX · Data Analysis',
-    stack: ['SQL (Advanced)', 'Power BI', 'DAX', 'Data Analysis', 'Data Modeling'],
-    image: '/assets/credit_card.png',
-    description: 'Dual-view interactive Power BI dashboard tracking weekly KPIs across 667K transactions to identify core revenue drivers.',
-    fullDescription: 'Constructed an enterprise-grade dual-view Power BI executive dashboard connected to a SQL database. Tracked weekly revenue trends, transaction volume, interest earnings, and customer risk metrics across 667,000+ credit card transactions.',
+    id: 'restaurant-automation-platform',
+    title: 'Restaurant Automation Platform',
+    tech: 'JavaScript · HTML · CSS · Git',
+    stack: ['JavaScript', 'HTML5', 'CSS3', 'Git', 'DOM Manipulation'],
+    image: '/assets/restaurant_platform.png',
+    description: 'Engineered a digital ordering web application simulating end-to-end e-commerce cart-to-checkout workflows.',
+    fullDescription: 'Engineered an interactive web application with a responsive user interface designed for automated digital ordering, featuring dynamic DOM manipulation and order workflow management.',
     highlights: [
-      'Processed & normalized 667K+ financial transaction records using complex SQL queries and DAX formulas.',
-      'Discovered that the 40-50 age group and "Blue" cardholders generated 83% of total portfolio revenue.',
-      'Proposed targeted marketing initiatives for underperforming digital channels and underpenetrated regions.'
+      'Engineered a web application with an engaging user interface for automated digital ordering, simulating end-to-end e-commerce cart-to-checkout workflows.',
+      'Streamlined workflow systems using automated event listeners and dynamic DOM manipulation, accelerating digital order processing capabilities.'
     ],
-    githubLink: 'https://github.com/sushantpawar01/CREDIT-CARD-WEEKLY-STATUS-DASHBOARD.git'
+    githubLink: 'https://github.com/sushantpawar01/Restaurant-Automation-Website-'
   },
   {
-    id: 'mutual-fund-analysis',
-    title: 'Mutual Fund Analysis & Scoring Model',
-    tech: 'Python (Pandas, Sklearn) · Excel · Power BI',
-    stack: ['Python', 'Pandas', 'Scikit-Learn', 'Power BI', 'Financial Analytics'],
-    image: '/assets/mutual_fund.png',
-    description: 'Custom scoring model analyzing 2,500+ mutual fund schemes to isolate top 30 high-return, low-risk investment options.',
-    fullDescription: 'Developed a quantitative mutual fund evaluation system evaluating over 2,500 Indian mutual fund schemes across equity, debt, and hybrid categories. Built a multi-criteria scoring algorithm weighing 3-year CAGR returns, expense ratios, fund age, Sharpe ratio, and return consistency.',
+    id: 'customer-behavior-analytics-dashboard',
+    title: 'Customer Behavior Analytics Dashboard',
+    tech: 'Python · SQL · Power BI',
+    stack: ['Python', 'SQL', 'Power BI', 'DAX', 'Data Analytics'],
+    image: '/assets/customer_analytics.png',
+    description: 'Big-data analytics pipeline and Power BI dashboard processing transaction data to track weekly revenue KPIs and growth drivers.',
+    fullDescription: 'Developed a big-data analytics pipeline to process mock sales records and visualize purchasing trends, empowering business stakeholders to make data-driven supply chain and inventory decisions.',
     highlights: [
-      'Analyzed 2,500+ fund schemes using Pandas and Scikit-Learn data processing pipelines.',
-      'Developed a custom risk-reward scoring algorithm to surface the top 30 optimal investment options.',
-      'Created an interactive Power BI dashboard with dynamic sliders and risk spectrum filters for investors.'
+      'Developed a big-data analytics pipeline to process mock sales data and visualize purchasing trends, empowering business users to make data-driven supply chain decisions.',
+      'Executed complex SQL queries and DAX functions to analyze high-volume transaction records, evaluating weekly revenue KPIs and regional growth drivers.'
     ],
-    githubLink: 'https://github.com/sushantpawar01/Mutual-Fund-Analysis.git'
+    githubLink: 'https://github.com/sushantpawar01/Customer_behavior_analysis'
   }
 ];
 
@@ -57,7 +54,6 @@ const Projects = () => {
     <section id="projects" className="py-20 relative bg-[#0b0c10]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Section Header with Line Divider */}
         <div className="flex items-center justify-between mb-12">
           <div className="flex items-center gap-4 w-full">
             <h2 className="text-2xl sm:text-3xl font-bold font-mono text-white flex items-center gap-2 shrink-0">
@@ -76,7 +72,6 @@ const Projects = () => {
           </a>
         </div>
 
-        {/* 3-Column Project Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projectsData.map((project) => (
             <div
@@ -84,7 +79,6 @@ const Projects = () => {
               className="code-card rounded-lg overflow-hidden flex flex-col justify-between group"
             >
               <div>
-                {/* Thumbnail Preview Image */}
                 <div className="relative h-48 overflow-hidden bg-[#0b0c10] border-b border-[#26283b]">
                   <img
                     src={project.image}
@@ -94,26 +88,21 @@ const Projects = () => {
                   <div className="absolute inset-0 bg-[#0b0c10]/20 group-hover:bg-transparent transition-colors" />
                 </div>
 
-                {/* Card Body */}
                 <div className="p-5 space-y-3">
-                  {/* Tech stack tagline */}
                   <div className="text-xs font-mono text-[#a855f7] truncate">
                     {project.tech}
                   </div>
 
-                  {/* Title */}
                   <h3 className="text-lg font-bold font-mono text-white group-hover:text-[#c084fc] transition-colors">
                     {project.title}
                   </h3>
 
-                  {/* Description */}
                   <p className="text-xs font-mono text-gray-400 line-clamp-3 leading-relaxed">
                     {project.description}
                   </p>
                 </div>
               </div>
 
-              {/* Action Buttons Footer */}
               <div className="p-5 pt-0 flex items-center gap-3">
                 <button
                   onClick={() => setSelectedProject(project)}
@@ -138,7 +127,6 @@ const Projects = () => {
 
       </div>
 
-      {/* Detail Modal */}
       {selectedProject && (
         <ProjectModal
           project={selectedProject}
