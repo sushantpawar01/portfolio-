@@ -111,7 +111,7 @@ const ResumeModal = ({ onClose }) => {
             <div className="space-y-1 text-xs">
               <div className="flex items-center justify-between">
                 <p className="font-bold text-white">Customized Recommendation System <span className="text-gray-400 font-normal">| Python, K-Means, RFM Analysis, Scikit-learn</span></p>
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">GitHub <ExternalLink className="w-3 h-3" /></a>
+                <a href="https://github.com/sushantpawar01/Customized-Recommendation-System-The-Intelligent-customer-segmentation-Approach-" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">GitHub <ExternalLink className="w-3 h-3" /></a>
               </div>
               <ul className="list-disc list-inside text-gray-300 space-y-1">
                 <li>Developed and implemented an RFM model to categorize high-value customers, facilitating personalized e-commerce marketing strategies and resulting in a 20% increase in engagement.</li>
@@ -122,7 +122,7 @@ const ResumeModal = ({ onClose }) => {
             <div className="space-y-1 text-xs">
               <div className="flex items-center justify-between">
                 <p className="font-bold text-white">Restaurant Automation Platform <span className="text-gray-400 font-normal">| JavaScript, HTML, CSS, Git</span></p>
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">GitHub <ExternalLink className="w-3 h-3" /></a>
+                <a href="https://github.com/sushantpawar01/Restaurant-Automation-Website-" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">GitHub <ExternalLink className="w-3 h-3" /></a>
               </div>
               <ul className="list-disc list-inside text-gray-300 space-y-1">
                 <li>Engineered a web application with an engaging user interface for automated digital ordering, simulating end-to-end e-commerce cart-to-checkout workflows.</li>
@@ -133,7 +133,7 @@ const ResumeModal = ({ onClose }) => {
             <div className="space-y-1 text-xs">
               <div className="flex items-center justify-between">
                 <p className="font-bold text-white">Customer Behavior Analytics Dashboard <span className="text-gray-400 font-normal">| Python, SQL, Power BI</span></p>
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">GitHub <ExternalLink className="w-3 h-3" /></a>
+                <a href="https://github.com/sushantpawar01/Customer_behavior_analysis" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">GitHub <ExternalLink className="w-3 h-3" /></a>
               </div>
               <ul className="list-disc list-inside text-gray-300 space-y-1">
                 <li>Developed a big-data analytics pipeline to process mock sales data and visualize purchasing trends, empowering business users to make data-driven supply chain decisions.</li>
