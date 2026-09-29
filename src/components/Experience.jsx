@@ -3,6 +3,17 @@ import { Briefcase, Calendar, MapPin, Award } from 'lucide-react';
 
 const experiences = [
   {
+    role: 'Data & Analytics Representative Intern',
+    organization: 'Ping Digital Broadcast',
+    location: 'Remote',
+    period: 'Mar 2026 – Aug 2026',
+    highlights: [
+      'Constructed tracking spreadsheets and SQL databases to monitor daily registration trends across 1,200+ trial sign-ups.',
+      'Cleaned and validated user activation logs, eliminating duplicate entries and ensuring 99.5% reporting data accuracy.',
+      'Performed cohort analysis on trial usage patterns, identifying key adoption bottlenecks to inform weekly engagement strategy.'
+    ]
+  },
+  {
     role: 'Content Writer',
     organization: 'Manchtantra IIITM Theatre Club',
     location: 'Gwalior, Madhya Pradesh',
@@ -30,7 +41,6 @@ const Experience = () => {
     <section id="experience" className="py-20 bg-[#0b0c10] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Section Header */}
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-2xl sm:text-3xl font-bold font-mono text-white flex items-center gap-2 shrink-0">
             <span className="text-[#a855f7]">#</span>experience
@@ -38,7 +48,6 @@ const Experience = () => {
           <div className="h-px bg-gradient-to-r from-[#a855f7]/60 via-[#26283b] to-transparent w-full" />
         </div>
 
-        {/* Timeline / Cards */}
         <div className="max-w-4xl mx-auto space-y-8">
           {experiences.map((exp, idx) => (
             <div
@@ -64,7 +73,6 @@ const Experience = () => {
                 </div>
               </div>
 
-              {/* Highlights */}
               <ul className="space-y-2.5 text-xs sm:text-sm font-mono text-gray-300">
                 {exp.highlights.map((point, pIdx) => (
                   <li key={pIdx} className="flex items-start gap-2.5">
