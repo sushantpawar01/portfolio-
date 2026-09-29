@@ -56,7 +56,7 @@ const codingProfiles = [
   },
   {
     platform: 'HackerRank',
-    handle: 'sushantakkill',
+    handle: 'sushantakki11',
     rank: 'Silver Level',
     highlight: 'SQL (Advanced) Certified',
     link: 'https://www.hackerrank.com/profile/sushantakki11'
