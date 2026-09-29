@@ -52,14 +52,14 @@ const codingProfiles = [
     handle: 'sushiiAkkii11',
     rank: 'Knight Level (Rating: 2014)',
     highlight: 'Global Rank 160 (Biweekly Contest 184)',
-    link: 'https://leetcode.com/u/sushiiAkkii11/'
+    link: 'https://leetcode.com/u/sushantAkki11/'
   },
   {
     platform: 'HackerRank',
     handle: 'sushantakkill',
     rank: 'Silver Level',
     highlight: 'SQL (Advanced) Certified',
-    link: 'https://www.hackerrank.com/profile/sushantakkill'
+    link: 'https://www.hackerrank.com/profile/sushantakki11'
   }
 ];
 
