@@ -36,16 +36,16 @@ const ResumeModal = ({ onClose }) => {
             <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-400 pt-2">
               <span>📞 +91-9759620881</span>
               <span>✉️ sushantakkill@gmail.com</span>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">
+              <a href="https://linkedin.com/in/sushantpawar11" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">
                 LinkedIn <ExternalLink className="w-3 h-3" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">
+              <a href="https://github.com/sushantpawar01" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">
                 GitHub <ExternalLink className="w-3 h-3" />
               </a>
               <a href="#" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">
                 Portfolio <ExternalLink className="w-3 h-3" />
               </a>
-              <a href="#" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">
+              <a href="https://app.notion.com/p/Sushant-Pawar-2c4fa2803dfb8012b2e6f1807020e6a4?__dm_a=1" target="_blank" rel="noreferrer" className="text-[#c084fc] hover:underline flex items-center gap-1">
                 Notion Profile <ExternalLink className="w-3 h-3" />
               </a>
             </div>
