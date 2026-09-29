@@ -62,7 +62,7 @@ const Projects = () => {
             <div className="h-px bg-gradient-to-r from-[#a855f7]/60 via-[#26283b] to-transparent w-full" />
           </div>
           <a
-            href="https://github.com/sushantpawar01"
+            href="https://github.com/sushantpawar01?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:flex items-center gap-1.5 text-xs font-mono text-[#c084fc] hover:text-white transition-colors shrink-0 ml-4"
